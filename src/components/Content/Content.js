@@ -58,7 +58,7 @@ function Content(){
                 gap: ${changeDesign ? '': '30px'}
             }
             `}
-      </style>   
+        </style>   
         </div>
     )
 }

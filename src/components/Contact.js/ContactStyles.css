@@ -6,6 +6,18 @@
   min-height: calc(100vh - 116px);
   width: 100%;
 }
+.contact button {
+  position: fixed;
+  top: 7px;
+  left: 40%;
+  padding: 15px;
+  background-color: rgb(0, 1, 70);
+  border: 0;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+  z-index: 10;
+}
 .contact div {
   display: flex;
   align-items: center;
@@ -23,5 +35,4 @@
   position: absolute;
   font-size: 60px;
   top: -32px;
-  color: #1abc9c;
 }

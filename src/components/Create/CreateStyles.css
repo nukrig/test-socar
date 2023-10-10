@@ -7,16 +7,28 @@
   width: 100%;
   padding: 20px;
 }
+.createBtn {
+  position: fixed;
+  top: 7px;
+  left: 40%;
+  padding: 15px;
+  background-color: rgb(0, 1, 70);
+  border: 0;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+  z-index: 10;
+}
 .createContent {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   flex-direction: column;
   border: 2px solid rgb(151, 151, 151);
   border-radius: 10px;
   width: 70vw;
-  padding: 20px 10px;
+  padding: 10px 10px;
   font-size: 18px;
   font-weight: bold;
   color: rgb(92, 92, 92);
@@ -40,15 +52,18 @@
 .createButton {
   padding: 15px;
   border-radius: 50px;
-  background-color: gray;
+  background-color: black;
   border: 0;
   color: white;
   font-weight: bold;
   font-size: 20px;
+  cursor: pointer;
 }
 .redButton {
   margin-top: 10px;
   padding: 15px;
   border-radius: 50px;
-  background-color: rgb(172, 5, 5);
+  background-color: transparent;
+  color: red;
+  cursor: pointer;
 }
