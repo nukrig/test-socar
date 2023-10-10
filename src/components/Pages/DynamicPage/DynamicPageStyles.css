@@ -1,0 +1,29 @@
+.dynamicPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 116px);
+  width: 100%;
+}
+.dynamicPage button {
+  padding: 15px;
+  border-radius: 50px;
+  background-color: rgb(172, 5, 5);
+  border: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.dynamicContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid rgb(151, 151, 151);
+  border-radius: 10px;
+  width: 70vw;
+  padding: 20px 10px;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+}
