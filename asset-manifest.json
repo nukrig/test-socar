@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/test-socar/static/css/main.8649a611.css",
+    "main.js": "/test-socar/static/js/main.53c1c8f1.js",
+    "static/js/787.276dc0ce.chunk.js": "/test-socar/static/js/787.276dc0ce.chunk.js",
+    "index.html": "/test-socar/index.html",
+    "main.8649a611.css.map": "/test-socar/static/css/main.8649a611.css.map",
+    "main.53c1c8f1.js.map": "/test-socar/static/js/main.53c1c8f1.js.map",
+    "787.276dc0ce.chunk.js.map": "/test-socar/static/js/787.276dc0ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8649a611.css",
+    "static/js/main.53c1c8f1.js"
+  ]
+}
