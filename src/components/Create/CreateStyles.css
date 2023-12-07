@@ -59,6 +59,10 @@
   font-size: 20px;
   cursor: pointer;
 }
+textarea {
+  height: 220px;
+  width: 70%;
+}
 .redButton {
   margin-top: 10px;
   padding: 15px;
@@ -66,4 +70,14 @@
   background-color: transparent;
   color: red;
   cursor: pointer;
+}
+@media (max-width: 1040px) {
+  .createContent {
+    font-size: 14px;
+  }
+  .createBtn {
+    left: 60%;
+    top: 18px;
+    padding: 5px;
+  }
 }

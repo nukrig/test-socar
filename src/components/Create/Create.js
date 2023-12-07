@@ -36,7 +36,7 @@ function PageCreator({ pageTitle, setPageTitle, additionalInfo, setAdditionalInf
             <label for='info'>Please type the additional information about you <br/> (name,surname,age,male and some more information)...</label>
             <textarea
                 id='info'
-                rows="10" cols="50"
+                // rows="7" cols='40'
                 placeholder="Additional Information"
                 value={additionalInfo}
                 onChange={(e) => setAdditionalInfo(e.target.value)}
@@ -48,9 +48,9 @@ function PageCreator({ pageTitle, setPageTitle, additionalInfo, setAdditionalInf
             }} className='createButton redButton'>CLEAR</button>
           </div>
             <button onClick={handleButtonClick} className='createButton' >
-            <i class="fa-solid fa-angles-left"></i>
+            <i className="fa-solid fa-angles-left"></i>
               View New Page 
-            <i style={{color:'green'}} class="fa-solid fa-angles-right"></i>
+            <i style={{color:'green'}} className="fa-solid fa-angles-right"></i>
             </button>
 
         </div>
